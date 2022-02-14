@@ -1,0 +1,938 @@
+[
+ {
+   "Year": "TBD",
+   "Annual\nStats": "",
+   "Total\nMovies": "2,040",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "",
+   "No. 1 Movie": ""
+ },
+ {
+   "Year": "2029",
+   "Annual\nStats": "",
+   "Total\nMovies": "1",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "",
+   "No. 1 Movie": ""
+ },
+ {
+   "Year": "2028",
+   "Annual\nStats": "",
+   "Total\nMovies": "1",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "",
+   "No. 1 Movie": ""
+ },
+ {
+   "Year": "2027",
+   "Annual\nStats": "",
+   "Total\nMovies": "2",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "",
+   "No. 1 Movie": ""
+ },
+ {
+   "Year": "2026",
+   "Annual\nStats": "",
+   "Total\nMovies": "1",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "",
+   "No. 1 Movie": ""
+ },
+ {
+   "Year": "2025",
+   "Annual\nStats": "",
+   "Total\nMovies": "1",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "",
+   "No. 1 Movie": ""
+ },
+ {
+   "Year": "2024",
+   "Annual\nStats": "",
+   "Total\nMovies": "26",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "",
+   "No. 1 Movie": ""
+ },
+ {
+   "Year": "2023",
+   "Annual\nStats": "",
+   "Total\nMovies": "49",
+   "Average\nProduction\nBudget": "$290,000,000",
+   "Combined\nWorldwide\nBox Office": "",
+   "No. 1 Movie": ""
+ },
+ {
+   "Year": "2022",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "651",
+   "Average\nProduction\nBudget": "$67,507,143",
+   "Combined\nWorldwide\nBox Office": "$1,705,300,061",
+   "No. 1 Movie": "Chang Jin Hu Zhi Shui Men Qiao (长津湖之水门桥)"
+ },
+ {
+   "Year": "2021",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "3,383",
+   "Average\nProduction\nBudget": "$62,039,925",
+   "Combined\nWorldwide\nBox Office": "$18,850,646,215",
+   "No. 1 Movie": "Spider-Man: No Way Home"
+ },
+ {
+   "Year": "2020",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "3,382",
+   "Average\nProduction\nBudget": "$40,940,098",
+   "Combined\nWorldwide\nBox Office": "$8,705,744,424",
+   "No. 1 Movie": "Kimetsu no Yaiba: Mugen Ressha-Hen"
+ },
+ {
+   "Year": "2019",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "4,022",
+   "Average\nProduction\nBudget": "$47,429,731",
+   "Combined\nWorldwide\nBox Office": "$38,809,750,335",
+   "No. 1 Movie": "Avengers: Endgame"
+ },
+ {
+   "Year": "2018",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "4,076",
+   "Average\nProduction\nBudget": "$39,126,646",
+   "Combined\nWorldwide\nBox Office": "$38,281,372,006",
+   "No. 1 Movie": "Avengers: Infinity War"
+ },
+ {
+   "Year": "2017",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "3,705",
+   "Average\nProduction\nBudget": "$45,043,070",
+   "Combined\nWorldwide\nBox Office": "$37,949,194,306",
+   "No. 1 Movie": "Star Wars Ep. VIII: The Last Jedi"
+ },
+ {
+   "Year": "2016",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "3,531",
+   "Average\nProduction\nBudget": "$37,817,389",
+   "Combined\nWorldwide\nBox Office": "$37,076,186,234",
+   "No. 1 Movie": "Captain America: Civil War"
+ },
+ {
+   "Year": "2015",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "3,011",
+   "Average\nProduction\nBudget": "$26,396,102",
+   "Combined\nWorldwide\nBox Office": "$36,097,293,086",
+   "No. 1 Movie": "Star Wars Ep. VII: The Force Awakens"
+ },
+ {
+   "Year": "2014",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "1,539",
+   "Average\nProduction\nBudget": "$30,725,097",
+   "Combined\nWorldwide\nBox Office": "$29,955,889,665",
+   "No. 1 Movie": "Transformers: Age of Extinction"
+ },
+ {
+   "Year": "2013",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "1,429",
+   "Average\nProduction\nBudget": "$37,140,852",
+   "Combined\nWorldwide\nBox Office": "$29,832,142,356",
+   "No. 1 Movie": "Frozen"
+ },
+ {
+   "Year": "2012",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "1,498",
+   "Average\nProduction\nBudget": "$33,216,725",
+   "Combined\nWorldwide\nBox Office": "$31,713,684,258",
+   "No. 1 Movie": "The Avengers"
+ },
+ {
+   "Year": "2011",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "1,301",
+   "Average\nProduction\nBudget": "$34,981,244",
+   "Combined\nWorldwide\nBox Office": "$27,420,869,896",
+   "No. 1 Movie": "Harry Potter and the Deathly Hallows: Part II"
+ },
+ {
+   "Year": "2010",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "1,248",
+   "Average\nProduction\nBudget": "$33,369,984",
+   "Combined\nWorldwide\nBox Office": "$25,313,964,418",
+   "No. 1 Movie": "Toy Story 3"
+ },
+ {
+   "Year": "2009",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "1,217",
+   "Average\nProduction\nBudget": "$34,677,448",
+   "Combined\nWorldwide\nBox Office": "$25,904,962,085",
+   "No. 1 Movie": "Avatar"
+ },
+ {
+   "Year": "2008",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "1,122",
+   "Average\nProduction\nBudget": "$31,389,914",
+   "Combined\nWorldwide\nBox Office": "$24,280,388,607",
+   "No. 1 Movie": "The Dark Knight"
+ },
+ {
+   "Year": "2007",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "1,036",
+   "Average\nProduction\nBudget": "$32,824,444",
+   "Combined\nWorldwide\nBox Office": "$23,242,676,555",
+   "No. 1 Movie": "Pirates of the Caribbean: At World’s End"
+ },
+ {
+   "Year": "2006",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "846",
+   "Average\nProduction\nBudget": "$28,948,157",
+   "Combined\nWorldwide\nBox Office": "$20,184,992,123",
+   "No. 1 Movie": "Pirates of the Caribbean: Dead Man’s Chest"
+ },
+ {
+   "Year": "2005",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "641",
+   "Average\nProduction\nBudget": "$33,585,720",
+   "Combined\nWorldwide\nBox Office": "$18,336,269,890",
+   "No. 1 Movie": "Harry Potter and the Goblet of Fire"
+ },
+ {
+   "Year": "2004",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "643",
+   "Average\nProduction\nBudget": "$35,373,311",
+   "Combined\nWorldwide\nBox Office": "$19,077,478,574",
+   "No. 1 Movie": "Shrek 2"
+ },
+ {
+   "Year": "2003",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "598",
+   "Average\nProduction\nBudget": "$31,983,734",
+   "Combined\nWorldwide\nBox Office": "$17,829,955,848",
+   "No. 1 Movie": "The Lord of the Rings: The Return of the King"
+ },
+ {
+   "Year": "2002",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "506",
+   "Average\nProduction\nBudget": "$30,922,913",
+   "Combined\nWorldwide\nBox Office": "$16,797,030,489",
+   "No. 1 Movie": "The Lord of the Rings: The Two Towers"
+ },
+ {
+   "Year": "2001",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "494",
+   "Average\nProduction\nBudget": "$32,361,374",
+   "Combined\nWorldwide\nBox Office": "$15,483,393,316",
+   "No. 1 Movie": "Harry Potter and the Sorcerer’s Stone"
+ },
+ {
+   "Year": "2000",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "544",
+   "Average\nProduction\nBudget": "$31,167,926",
+   "Combined\nWorldwide\nBox Office": "$13,322,074,987",
+   "No. 1 Movie": "Mission: Impossible 2"
+ },
+ {
+   "Year": "1999",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "484",
+   "Average\nProduction\nBudget": "$30,304,559",
+   "Combined\nWorldwide\nBox Office": "$13,584,927,794",
+   "No. 1 Movie": "Star Wars Ep. I: The Phantom Menace"
+ },
+ {
+   "Year": "1998",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "417",
+   "Average\nProduction\nBudget": "$30,057,948",
+   "Combined\nWorldwide\nBox Office": "$11,632,951,803",
+   "No. 1 Movie": "Armageddon"
+ },
+ {
+   "Year": "1997",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "368",
+   "Average\nProduction\nBudget": "$40,319,291",
+   "Combined\nWorldwide\nBox Office": "$12,759,138,774",
+   "No. 1 Movie": "Titanic"
+ },
+ {
+   "Year": "1996",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "334",
+   "Average\nProduction\nBudget": "$31,513,082",
+   "Combined\nWorldwide\nBox Office": "$10,139,290,129",
+   "No. 1 Movie": "Independence Day"
+ },
+ {
+   "Year": "1995",
+   "Annual\nStats": "Annual Stats",
+   "Total\nMovies": "313",
+   "Average\nProduction\nBudget": "$34,665,132",
+   "Combined\nWorldwide\nBox Office": "$9,874,955,432",
+   "No. 1 Movie": "Die Hard: With a Vengeance"
+ },
+ {
+   "Year": "1994",
+   "Annual\nStats": "",
+   "Total\nMovies": "257",
+   "Average\nProduction\nBudget": "$29,368,895",
+   "Combined\nWorldwide\nBox Office": "$8,838,976,238",
+   "No. 1 Movie": "The Lion King"
+ },
+ {
+   "Year": "1993",
+   "Annual\nStats": "",
+   "Total\nMovies": "236",
+   "Average\nProduction\nBudget": "$20,915,519",
+   "Combined\nWorldwide\nBox Office": "$7,924,712,777",
+   "No. 1 Movie": "Jurassic Park"
+ },
+ {
+   "Year": "1992",
+   "Annual\nStats": "",
+   "Total\nMovies": "229",
+   "Average\nProduction\nBudget": "$25,363,889",
+   "Combined\nWorldwide\nBox Office": "$6,950,835,455",
+   "No. 1 Movie": "Aladdin"
+ },
+ {
+   "Year": "1991",
+   "Annual\nStats": "",
+   "Total\nMovies": "246",
+   "Average\nProduction\nBudget": "$21,183,122",
+   "Combined\nWorldwide\nBox Office": "$6,186,712,753",
+   "No. 1 Movie": "Terminator 2: Judgment Day"
+ },
+ {
+   "Year": "1990",
+   "Annual\nStats": "",
+   "Total\nMovies": "247",
+   "Average\nProduction\nBudget": "$27,194,333",
+   "Combined\nWorldwide\nBox Office": "$6,642,420,951",
+   "No. 1 Movie": "Ghost"
+ },
+ {
+   "Year": "1989",
+   "Annual\nStats": "",
+   "Total\nMovies": "242",
+   "Average\nProduction\nBudget": "$18,261,143",
+   "Combined\nWorldwide\nBox Office": "$5,839,842,744",
+   "No. 1 Movie": "Indiana Jones and the Last Crusade"
+ },
+ {
+   "Year": "1988",
+   "Annual\nStats": "",
+   "Total\nMovies": "253",
+   "Average\nProduction\nBudget": "$15,181,818",
+   "Combined\nWorldwide\nBox Office": "$4,759,171,496",
+   "No. 1 Movie": "Rain Man"
+ },
+ {
+   "Year": "1987",
+   "Annual\nStats": "",
+   "Total\nMovies": "268",
+   "Average\nProduction\nBudget": "$14,015,714",
+   "Combined\nWorldwide\nBox Office": "$4,096,292,168",
+   "No. 1 Movie": "Fatal Attraction"
+ },
+ {
+   "Year": "1986",
+   "Annual\nStats": "",
+   "Total\nMovies": "261",
+   "Average\nProduction\nBudget": "$14,436,486",
+   "Combined\nWorldwide\nBox Office": "$3,595,512,631",
+   "No. 1 Movie": "Top Gun"
+ },
+ {
+   "Year": "1985",
+   "Annual\nStats": "",
+   "Total\nMovies": "232",
+   "Average\nProduction\nBudget": "$13,093,333",
+   "Combined\nWorldwide\nBox Office": "$3,755,776,779",
+   "No. 1 Movie": "Back to the Future"
+ },
+ {
+   "Year": "1984",
+   "Annual\nStats": "",
+   "Total\nMovies": "225",
+   "Average\nProduction\nBudget": "$15,742,857",
+   "Combined\nWorldwide\nBox Office": "$3,868,225,634",
+   "No. 1 Movie": "Indiana Jones and the Temple of Doom"
+ },
+ {
+   "Year": "1983",
+   "Annual\nStats": "",
+   "Total\nMovies": "212",
+   "Average\nProduction\nBudget": "$12,791,926",
+   "Combined\nWorldwide\nBox Office": "$3,160,702,721",
+   "No. 1 Movie": "Star Wars Ep. VI: Return of the Jedi"
+ },
+ {
+   "Year": "1982",
+   "Annual\nStats": "",
+   "Total\nMovies": "184",
+   "Average\nProduction\nBudget": "$12,430,000",
+   "Combined\nWorldwide\nBox Office": "$3,479,526,840",
+   "No. 1 Movie": "E.T. the Extra-Terrestrial"
+ },
+ {
+   "Year": "1981",
+   "Annual\nStats": "",
+   "Total\nMovies": "188",
+   "Average\nProduction\nBudget": "$12,509,677",
+   "Combined\nWorldwide\nBox Office": "$2,882,721,930",
+   "No. 1 Movie": "Raiders of the Lost Ark"
+ },
+ {
+   "Year": "1980",
+   "Annual\nStats": "",
+   "Total\nMovies": "171",
+   "Average\nProduction\nBudget": "$13,178,200",
+   "Combined\nWorldwide\nBox Office": "$2,784,330,561",
+   "No. 1 Movie": "Star Wars Ep. V: The Empire Strikes Back"
+ },
+ {
+   "Year": "1979",
+   "Annual\nStats": "",
+   "Total\nMovies": "149",
+   "Average\nProduction\nBudget": "$13,408,947",
+   "Combined\nWorldwide\nBox Office": "$2,513,564,573",
+   "No. 1 Movie": "Moonraker"
+ },
+ {
+   "Year": "1978",
+   "Annual\nStats": "",
+   "Total\nMovies": "109",
+   "Average\nProduction\nBudget": "$13,178,846",
+   "Combined\nWorldwide\nBox Office": "$2,240,954,756",
+   "No. 1 Movie": "Grease"
+ },
+ {
+   "Year": "1977",
+   "Annual\nStats": "",
+   "Total\nMovies": "98",
+   "Average\nProduction\nBudget": "$10,512,500",
+   "Combined\nWorldwide\nBox Office": "$2,685,539,597",
+   "No. 1 Movie": "Star Wars Ep. IV: A New Hope"
+ },
+ {
+   "Year": "1976",
+   "Annual\nStats": "",
+   "Total\nMovies": "97",
+   "Average\nProduction\nBudget": "$5,283,333",
+   "Combined\nWorldwide\nBox Office": "$1,168,047,408",
+   "No. 1 Movie": "Rocky"
+ },
+ {
+   "Year": "1975",
+   "Annual\nStats": "",
+   "Total\nMovies": "107",
+   "Average\nProduction\nBudget": "$4,662,500",
+   "Combined\nWorldwide\nBox Office": "$1,282,461,549",
+   "No. 1 Movie": "Jaws"
+ },
+ {
+   "Year": "1974",
+   "Annual\nStats": "",
+   "Total\nMovies": "108",
+   "Average\nProduction\nBudget": "$5,341,538",
+   "Combined\nWorldwide\nBox Office": "$1,226,746,912",
+   "No. 1 Movie": "Towering Inferno"
+ },
+ {
+   "Year": "1973",
+   "Annual\nStats": "",
+   "Total\nMovies": "97",
+   "Average\nProduction\nBudget": "$5,101,435",
+   "Combined\nWorldwide\nBox Office": "$1,303,883,713",
+   "No. 1 Movie": "The Exorcist"
+ },
+ {
+   "Year": "1972",
+   "Annual\nStats": "",
+   "Total\nMovies": "91",
+   "Average\nProduction\nBudget": "$2,426,500",
+   "Combined\nWorldwide\nBox Office": "$832,420,278",
+   "No. 1 Movie": "The Godfather"
+ },
+ {
+   "Year": "1971",
+   "Annual\nStats": "",
+   "Total\nMovies": "101",
+   "Average\nProduction\nBudget": "$3,705,556",
+   "Combined\nWorldwide\nBox Office": "$642,615,858",
+   "No. 1 Movie": "Diamonds Are Forever"
+ },
+ {
+   "Year": "1970",
+   "Annual\nStats": "",
+   "Total\nMovies": "124",
+   "Average\nProduction\nBudget": "$9,751,304",
+   "Combined\nWorldwide\nBox Office": "$746,518,661",
+   "No. 1 Movie": "Love Story"
+ },
+ {
+   "Year": "1969",
+   "Annual\nStats": "",
+   "Total\nMovies": "93",
+   "Average\nProduction\nBudget": "$8,945,455",
+   "Combined\nWorldwide\nBox Office": "$663,959,439",
+   "No. 1 Movie": "Butch Cassidy and the Sundance Kid"
+ },
+ {
+   "Year": "1968",
+   "Annual\nStats": "",
+   "Total\nMovies": "86",
+   "Average\nProduction\nBudget": "$4,735,111",
+   "Combined\nWorldwide\nBox Office": "$635,616,810",
+   "No. 1 Movie": "2001: A Space Odyssey"
+ },
+ {
+   "Year": "1967",
+   "Annual\nStats": "",
+   "Total\nMovies": "83",
+   "Average\nProduction\nBudget": "$3,833,333",
+   "Combined\nWorldwide\nBox Office": "$930,971,700",
+   "No. 1 Movie": "The Jungle Book"
+ },
+ {
+   "Year": "1966",
+   "Annual\nStats": "",
+   "Total\nMovies": "83",
+   "Average\nProduction\nBudget": "$4,796,300",
+   "Combined\nWorldwide\nBox Office": "$423,426,047",
+   "No. 1 Movie": "The Bible"
+ },
+ {
+   "Year": "1965",
+   "Annual\nStats": "",
+   "Total\nMovies": "74",
+   "Average\nProduction\nBudget": "$8,300,000",
+   "Combined\nWorldwide\nBox Office": "$820,183,541",
+   "No. 1 Movie": "The Sound of Music"
+ },
+ {
+   "Year": "1964",
+   "Annual\nStats": "",
+   "Total\nMovies": "66",
+   "Average\nProduction\nBudget": "$6,185,000",
+   "Combined\nWorldwide\nBox Office": "$554,902,591",
+   "No. 1 Movie": "Goldfinger"
+ },
+ {
+   "Year": "1963",
+   "Annual\nStats": "",
+   "Total\nMovies": "68",
+   "Average\nProduction\nBudget": "$9,948,250",
+   "Combined\nWorldwide\nBox Office": "$507,535,183",
+   "No. 1 Movie": "Cleopatra"
+ },
+ {
+   "Year": "1962",
+   "Annual\nStats": "",
+   "Total\nMovies": "74",
+   "Average\nProduction\nBudget": "$6,970,000",
+   "Combined\nWorldwide\nBox Office": "$296,039,282",
+   "No. 1 Movie": "Lawrence of Arabia"
+ },
+ {
+   "Year": "1961",
+   "Annual\nStats": "",
+   "Total\nMovies": "61",
+   "Average\nProduction\nBudget": "$3,580,000",
+   "Combined\nWorldwide\nBox Office": "$468,049,268",
+   "No. 1 Movie": "101 Dalmatians"
+ },
+ {
+   "Year": "1960",
+   "Annual\nStats": "",
+   "Total\nMovies": "67",
+   "Average\nProduction\nBudget": "$6,800,000",
+   "Combined\nWorldwide\nBox Office": "$251,420,491",
+   "No. 1 Movie": "Spartacus"
+ },
+ {
+   "Year": "1959",
+   "Annual\nStats": "",
+   "Total\nMovies": "50",
+   "Average\nProduction\nBudget": "$6,595,962",
+   "Combined\nWorldwide\nBox Office": "$268,329,284",
+   "No. 1 Movie": "Ben-Hur"
+ },
+ {
+   "Year": "1958",
+   "Annual\nStats": "",
+   "Total\nMovies": "47",
+   "Average\nProduction\nBudget": "$3,000,000",
+   "Combined\nWorldwide\nBox Office": "$142,836,174",
+   "No. 1 Movie": "South Pacific"
+ },
+ {
+   "Year": "1957",
+   "Annual\nStats": "",
+   "Total\nMovies": "59",
+   "Average\nProduction\nBudget": "$2,780,000",
+   "Combined\nWorldwide\nBox Office": "$138,296,059",
+   "No. 1 Movie": "The Bridge on the River Kwai"
+ },
+ {
+   "Year": "1956",
+   "Annual\nStats": "",
+   "Total\nMovies": "62",
+   "Average\nProduction\nBudget": "$4,274,000",
+   "Combined\nWorldwide\nBox Office": "$273,458,496",
+   "No. 1 Movie": "The Ten Commandments"
+ },
+ {
+   "Year": "1955",
+   "Annual\nStats": "",
+   "Total\nMovies": "56",
+   "Average\nProduction\nBudget": "$1,388,500",
+   "Combined\nWorldwide\nBox Office": "$198,394,704",
+   "No. 1 Movie": "Lady and the Tramp"
+ },
+ {
+   "Year": "1954",
+   "Annual\nStats": "",
+   "Total\nMovies": "62",
+   "Average\nProduction\nBudget": "$3,636,667",
+   "Combined\nWorldwide\nBox Office": "$235,456,938",
+   "No. 1 Movie": "White Christmas"
+ },
+ {
+   "Year": "1953",
+   "Annual\nStats": "",
+   "Total\nMovies": "52",
+   "Average\nProduction\nBudget": "$2,128,000",
+   "Combined\nWorldwide\nBox Office": "$232,993,365",
+   "No. 1 Movie": "Peter Pan"
+ },
+ {
+   "Year": "1952",
+   "Annual\nStats": "",
+   "Total\nMovies": "38",
+   "Average\nProduction\nBudget": "$2,423,333",
+   "Combined\nWorldwide\nBox Office": "$80,267,973",
+   "No. 1 Movie": "The Greatest Show on Earth"
+ },
+ {
+   "Year": "1951",
+   "Annual\nStats": "",
+   "Total\nMovies": "46",
+   "Average\nProduction\nBudget": "$2,958,333",
+   "Combined\nWorldwide\nBox Office": "$112,685,600",
+   "No. 1 Movie": "Quo Vadis?"
+ },
+ {
+   "Year": "1950",
+   "Annual\nStats": "",
+   "Total\nMovies": "43",
+   "Average\nProduction\nBudget": "$3,334,393",
+   "Combined\nWorldwide\nBox Office": "$320,384,823",
+   "No. 1 Movie": "Cinderella"
+ },
+ {
+   "Year": "1949",
+   "Annual\nStats": "",
+   "Total\nMovies": "46",
+   "Average\nProduction\nBudget": "$1,300,000",
+   "Combined\nWorldwide\nBox Office": "$83,088,133",
+   "No. 1 Movie": "Samson and Delilah"
+ },
+ {
+   "Year": "1948",
+   "Annual\nStats": "",
+   "Total\nMovies": "51",
+   "Average\nProduction\nBudget": "$3,350,000",
+   "Combined\nWorldwide\nBox Office": "$68,143,310",
+   "No. 1 Movie": "The Snake Pit"
+ },
+ {
+   "Year": "1947",
+   "Annual\nStats": "",
+   "Total\nMovies": "48",
+   "Average\nProduction\nBudget": "$2,000,000",
+   "Combined\nWorldwide\nBox Office": "$133,770,556",
+   "No. 1 Movie": "Miracle on 34th Street"
+ },
+ {
+   "Year": "1946",
+   "Annual\nStats": "",
+   "Total\nMovies": "44",
+   "Average\nProduction\nBudget": "$3,242,200",
+   "Combined\nWorldwide\nBox Office": "$243,959,820",
+   "No. 1 Movie": "Song of the South"
+ },
+ {
+   "Year": "1945",
+   "Annual\nStats": "",
+   "Total\nMovies": "39",
+   "Average\nProduction\nBudget": "$1,636,667",
+   "Combined\nWorldwide\nBox Office": "$126,719,955",
+   "No. 1 Movie": "The Bells of St. Mary's"
+ },
+ {
+   "Year": "1944",
+   "Annual\nStats": "",
+   "Total\nMovies": "27",
+   "Average\nProduction\nBudget": "$3,780,500",
+   "Combined\nWorldwide\nBox Office": "$38,231,885",
+   "No. 1 Movie": "Going My Way"
+ },
+ {
+   "Year": "1943",
+   "Annual\nStats": "",
+   "Total\nMovies": "29",
+   "Average\nProduction\nBudget": "$1,833,000",
+   "Combined\nWorldwide\nBox Office": "$76,375,215",
+   "No. 1 Movie": "This is the Army"
+ },
+ {
+   "Year": "1942",
+   "Annual\nStats": "",
+   "Total\nMovies": "32",
+   "Average\nProduction\nBudget": "$496,000",
+   "Combined\nWorldwide\nBox Office": "$322,116,344",
+   "No. 1 Movie": "Bambi"
+ },
+ {
+   "Year": "1941",
+   "Annual\nStats": "",
+   "Total\nMovies": "37",
+   "Average\nProduction\nBudget": "$1,250,000",
+   "Combined\nWorldwide\nBox Office": "$35,009,826",
+   "No. 1 Movie": "Sergeant York"
+ },
+ {
+   "Year": "1940",
+   "Annual\nStats": "",
+   "Total\nMovies": "39",
+   "Average\nProduction\nBudget": "$1,696,449",
+   "Combined\nWorldwide\nBox Office": "$189,734,141",
+   "No. 1 Movie": "Pinocchio"
+ },
+ {
+   "Year": "1939",
+   "Annual\nStats": "",
+   "Total\nMovies": "40",
+   "Average\nProduction\nBudget": "$2,725,667",
+   "Combined\nWorldwide\nBox Office": "$437,117,543",
+   "No. 1 Movie": "Gone with the Wind"
+ },
+ {
+   "Year": "1938",
+   "Annual\nStats": "",
+   "Total\nMovies": "27",
+   "Average\nProduction\nBudget": "$1,822,000",
+   "Combined\nWorldwide\nBox Office": "$13,945,659",
+   "No. 1 Movie": "You Can't Take It With You"
+ },
+ {
+   "Year": "1937",
+   "Annual\nStats": "",
+   "Total\nMovies": "32",
+   "Average\nProduction\nBudget": "$1,488,000",
+   "Combined\nWorldwide\nBox Office": "$197,242,444",
+   "No. 1 Movie": "Snow White and the Seven Dwarfs"
+ },
+ {
+   "Year": "1936",
+   "Annual\nStats": "",
+   "Total\nMovies": "32",
+   "Average\nProduction\nBudget": "$1,333,333",
+   "Combined\nWorldwide\nBox Office": "$16,623,381",
+   "No. 1 Movie": "How to Become a Detective"
+ },
+ {
+   "Year": "1935",
+   "Annual\nStats": "",
+   "Total\nMovies": "28",
+   "Average\nProduction\nBudget": "$609,000",
+   "Combined\nWorldwide\nBox Office": "$3,202,000",
+   "No. 1 Movie": "Top Hat"
+ },
+ {
+   "Year": "1934",
+   "Annual\nStats": "",
+   "Total\nMovies": "26",
+   "Average\nProduction\nBudget": "$325,000",
+   "Combined\nWorldwide\nBox Office": "$3,625,176",
+   "No. 1 Movie": "It Happened One Night"
+ },
+ {
+   "Year": "1933",
+   "Annual\nStats": "",
+   "Total\nMovies": "27",
+   "Average\nProduction\nBudget": "$437,000",
+   "Combined\nWorldwide\nBox Office": "$14,482,912",
+   "No. 1 Movie": "King Kong"
+ },
+ {
+   "Year": "1932",
+   "Annual\nStats": "",
+   "Total\nMovies": "26",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "$8,973",
+   "No. 1 Movie": "The Old Dark House"
+ },
+ {
+   "Year": "1931",
+   "Annual\nStats": "",
+   "Total\nMovies": "22",
+   "Average\nProduction\nBudget": "$558,000",
+   "Combined\nWorldwide\nBox Office": "$16,995,475",
+   "No. 1 Movie": "Frankenstein"
+ },
+ {
+   "Year": "1930",
+   "Annual\nStats": "",
+   "Total\nMovies": "18",
+   "Average\nProduction\nBudget": "$4,000,000",
+   "Combined\nWorldwide\nBox Office": "$11,118,204",
+   "No. 1 Movie": "Tom Sawyer"
+ },
+ {
+   "Year": "1929",
+   "Annual\nStats": "",
+   "Total\nMovies": "27",
+   "Average\nProduction\nBudget": "$379,000",
+   "Combined\nWorldwide\nBox Office": "$7,087,611",
+   "No. 1 Movie": "The Broadway Melody"
+ },
+ {
+   "Year": "1928",
+   "Annual\nStats": "",
+   "Total\nMovies": "14",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "$11,231,793",
+   "No. 1 Movie": "The Singing Fool"
+ },
+ {
+   "Year": "1927",
+   "Annual\nStats": "",
+   "Total\nMovies": "13",
+   "Average\nProduction\nBudget": "$2,000,000",
+   "Combined\nWorldwide\nBox Office": "$4,340,660",
+   "No. 1 Movie": "The Jazz Singer"
+ },
+ {
+   "Year": "1926",
+   "Annual\nStats": "",
+   "Total\nMovies": "9",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "$3,002,993",
+   "No. 1 Movie": "Aloma of the South Seas"
+ },
+ {
+   "Year": "1925",
+   "Annual\nStats": "",
+   "Total\nMovies": "15",
+   "Average\nProduction\nBudget": "$2,072,500",
+   "Combined\nWorldwide\nBox Office": "$31,058,600",
+   "No. 1 Movie": "The Big Parade"
+ },
+ {
+   "Year": "1924",
+   "Annual\nStats": "",
+   "Total\nMovies": "6",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "$18,835",
+   "No. 1 Movie": "Der müde Tod"
+ },
+ {
+   "Year": "1923",
+   "Annual\nStats": "",
+   "Total\nMovies": "5",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "$3,800,000",
+   "No. 1 Movie": "The Covered Wagon"
+ },
+ {
+   "Year": "1922",
+   "Annual\nStats": "",
+   "Total\nMovies": "4",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "",
+   "No. 1 Movie": ""
+ },
+ {
+   "Year": "1921",
+   "Annual\nStats": "",
+   "Total\nMovies": "5",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "$11,845,247",
+   "No. 1 Movie": "The Four Horsemen of the Apocalypse"
+ },
+ {
+   "Year": "1920",
+   "Annual\nStats": "",
+   "Total\nMovies": "5",
+   "Average\nProduction\nBudget": "$100,000",
+   "Combined\nWorldwide\nBox Office": "$3,000,000",
+   "No. 1 Movie": "Over the Hill to the Poorhouse"
+ },
+ {
+   "Year": "1919",
+   "Annual\nStats": "",
+   "Total\nMovies": "2",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "",
+   "No. 1 Movie": ""
+ },
+ {
+   "Year": "1918",
+   "Annual\nStats": "",
+   "Total\nMovies": "3",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "$9,685",
+   "No. 1 Movie": "Godovshchina revolyutsii"
+ },
+ {
+   "Year": "1916",
+   "Annual\nStats": "",
+   "Total\nMovies": "6",
+   "Average\nProduction\nBudget": "$292,954",
+   "Combined\nWorldwide\nBox Office": "$8,262,102",
+   "No. 1 Movie": "20,000 Leagues Under the Sea"
+ },
+ {
+   "Year": "1915",
+   "Annual\nStats": "",
+   "Total\nMovies": "3",
+   "Average\nProduction\nBudget": "$110,000",
+   "Combined\nWorldwide\nBox Office": "$11,000,000",
+   "No. 1 Movie": "The Birth of a Nation"
+ },
+ {
+   "Year": "1902",
+   "Annual\nStats": "",
+   "Total\nMovies": "1",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "$45,353",
+   "No. 1 Movie": "Le Voyage dans la Lune"
+ },
+ {
+   "Year": "1899",
+   "Annual\nStats": "",
+   "Total\nMovies": "4",
+   "Average\nProduction\nBudget": "",
+   "Combined\nWorldwide\nBox Office": "$14,172,639",
+   "No. 1 Movie": "Thief of Hearts"
+ }
+]

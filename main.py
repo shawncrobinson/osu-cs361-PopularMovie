@@ -1,27 +1,11 @@
 import tkinter as tk
 import json
 import itertools
+import os
+import requests
 from tkcalendar import DateEntry
 from PIL import Image, ImageTk
-
-# Create list of most popular movies by year. Placeholder while service doesn't exist.
-with open('movies.json') as f:
-    temp = json.load(f)
-movies = {}
-for entry in temp:
-    try:
-        if len(entry["No. 1 Movie"]) > 0:
-            movies[int(entry["Year"])] = {"Title": entry["No. 1 Movie"],
-                                          "Box Office": entry["Combined\nWorldwide\nBox Office"],
-                                          "Poster": "cats_00007.jpg",
-                                          "Synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc "
-                                                      "vehicula vulputate vulputate. Morbi tellus lorem, ultrices nec "
-                                                      "sodales a, maximus quis odio. Lorem ipsum dolor sit amet, "
-                                                      "consectetur adipiscing elit. Duis quis enim rhoncus, "
-                                                      "dignissim urna sed, dignissim elit. Nunc aliquet turpis nec "
-                                                      "aliquam feugiat."}
-    except ValueError:
-        pass
+from io import BytesIO
 
 # Create canvas and root
 root = tk.Tk()
@@ -66,13 +50,16 @@ submit_button.grid(columnspan=5, column=0, row=2)
 title_label = tk.Label(root, text="Title:")
 title_label.grid(column=0, row=3)
 
-boxoffice_label = tk.Label(root, text="Box Office $:")
-boxoffice_label.grid(column=0, row=4)
+rating_label = tk.Label(root, text="Rating (out of 10):")
+rating_label.grid(column=0, row=4)
+
+genres_label = tk.Label(root, text="Genres:")
+genres_label.grid(column=0, row=5)
 
 synopsis_label = tk.Label(root, text="Synopsis:")
-synopsis_label.grid(column=0, row=5)
+synopsis_label.grid(column=0, row=6, rowspan=4)
 
-movie_labels = [title_label, boxoffice_label, synopsis_label]
+movie_labels = [title_label, rating_label, genres_label, synopsis_label]
 for widget in movie_labels:
     widget.grid_remove()
 
@@ -81,13 +68,16 @@ INFO_WRAPLENGTH = 500
 movie_title = tk.Label(root, height=1, wraplength=INFO_WRAPLENGTH)
 movie_title.grid(columnspan=3, column=1, row=3)
 
-movie_boxoffice = tk.Label(root, height=1, wraplength=INFO_WRAPLENGTH)
-movie_boxoffice.grid(columnspan=3, column=1, row=4)
+movie_rating = tk.Label(root, height=1, wraplength=INFO_WRAPLENGTH)
+movie_rating.grid(columnspan=3, column=1, row=4)
+
+movie_genres = tk.Label(root, height=1, wraplength=INFO_WRAPLENGTH)
+movie_genres.grid(columnspan=3, column=1, row=5)
 
 movie_synopsis = tk.Label(root, height=5, wraplength=INFO_WRAPLENGTH)
-movie_synopsis.grid(columnspan=3, rowspan=3, column=1, row=5)
+movie_synopsis.grid(columnspan=3, rowspan=4, column=1, row=6)
 
-movie_text = [movie_title, movie_boxoffice, movie_synopsis]
+movie_text = [movie_title, movie_rating, movie_genres, movie_synopsis]
 for widget in movie_text:
     widget.grid_remove()
 
@@ -100,30 +90,42 @@ movie_poster.grid_remove()
 def update_movie(movie):
     img = Image.open("cats_00007.jpg")
     img = ImageTk.PhotoImage(img)
+
+    # Update text fields
+    movie_title.config(text=movie['title'])
+    movie_rating.config(text=str(movie['rating']))  # movie['rating'] is an int
+    movie_synopsis.config(text=movie['synopsis'])
+    movie_genres.config(text=", ".join(movie['genre']))  # movie['genre'] is a list of genres, not a single genre
+
+    # Fetch and update poster
+    response = requests.get(movie['poster_path'])
+    img = Image.open(BytesIO(response.content))
+
+    img.thumbnail((270, 400), Image.ANTIALIAS)
+
+    img = ImageTk.PhotoImage(img)
     movie_poster.configure(image=img)
     movie_poster.image = img
-
-    movie_title.config(text=movie['Title'])
-    movie_boxoffice.config(text=movie['Box Office'])
-    movie_synopsis.config(text=movie['Synopsis'])
 
     for movie_widget in itertools.chain(movie_labels, movie_text, [movie_poster]):
         movie_widget.grid()
 
 
 def get_movie(year):
-    query_year = date.get_date().year
-    if query_year < 1920:
-        return None
-    if query_year > 2022:
-        query_year = query_year - 100
-    # Determine movie to be displayed
+    # Clear (and create if doesn't exist) file that the movie info service will write response to
+    with open("movie_infos.json", "w") as io_file:
+        io_file.truncate(0)
+
+    # Call Amelia's movie info service
+    os.system(f"python movieScraper.py {str(year)}")
+
+    # Keep checking for file writes
     movie = None
     while movie is None:
-        if query_year in movies.keys():
-            movie = movies[query_year]
-        else:
-            query_year = query_year + 1
+        with open("movie_infos.json", "r") as io_file:
+            if len(io_file.readlines()) > 0:
+                io_file.seek(0)
+                movie = json.load(io_file)
 
     return movie
 
@@ -137,7 +139,15 @@ def toggle_element(element):
 
 def submit_date():
     query_year = date.get_date().year
-    # Call service for info (Placeholder atm. Also unsure of final structure of movie object rn)
+
+    # region Workaround for an issue in tkcalendar
+    # Selecting a 19XX date in the calendar converts to DD/MM/YY text, which causes get_date().year to return as 20XX
+    if query_year < 1920:
+        return None
+    if query_year > 2022:
+        query_year = query_year - 100
+    # endregion
+
     movie = get_movie(query_year)
     if movie is not None:
         update_movie(movie)

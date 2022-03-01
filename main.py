@@ -1,5 +1,6 @@
 import tkinter as tk
 import json
+import itertools
 from tkcalendar import DateEntry
 from PIL import Image, ImageTk
 
@@ -24,18 +25,27 @@ for entry in temp:
 
 # Create canvas and root
 root = tk.Tk()
-canvas = tk.Canvas(root, width=1280, height=720)
-canvas.grid(columnspan=5, rowspan=10)
+canvas = tk.Canvas(root, width=1280, height=1000)
+canvas.grid(columnspan=5, rowspan=13)
 
 # Instructions
-instructions = tk.Label(root, text="What was the highest grossing movie in the year you were born?\n"
-                                   "Enter and submit your date of birth.")
+instructions = tk.Label(root, text="What was the highest grossing movie in the year you were born?\n\n"
+                                   "Enter and submit your date of birth to find out.")
 instructions.grid(columnspan=5, column=0, row=0)
+
+help_box = tk.Label(root, width=30, height=7, wraplength=200, text="Enter a date into the box and press Submit to "
+                                                                   "look up the highest grossing movie during your "
+                                                                   "birth year. The date provided must be between "
+                                                                   "1920 and 2022.")
+help_box.grid(rowspan=2, columnspan=2, column=4, row=1)
+help_box.grid_remove()
 
 # Help Button
 help_text = tk.StringVar()
-help_text.set("?")
-help_button = tk.Button(root, textvariable=help_text)
+help_text.set("Help")
+help_button = tk.Button(root, textvariable=help_text, command=lambda: toggle_element(help_box), height=2, width=7,
+                        bg="#FFFF00",
+                        fg="#000000")
 help_button.grid(column=4, row=0)
 
 # Date Entry
@@ -52,62 +62,61 @@ submit_text.set("Submit")
 submit_button = tk.Button(root, textvariable=submit_text, command=lambda: submit_date(), height=2, width=13)
 submit_button.grid(columnspan=5, column=0, row=2)
 
-# Dynamic Widgets -- Not initially displayed or filled in
-dynamic_labels = []
-dynamic_widgets = []
+# Movie info labels (grid_remove() run to hide at app start)
+title_label = tk.Label(root, text="Title:")
+title_label.grid(column=0, row=3)
 
-def destroy_dynamic_widgets():
-    for widget in dynamic_widgets:
-        dynamic_widgets.remove(widget)
-        widget.destroy()
+boxoffice_label = tk.Label(root, text="Box Office $:")
+boxoffice_label.grid(column=0, row=4)
 
-def create_dynamic_labels():
-    title_label = tk.Label(root, text="Title:")
-    title_label.grid(column=0, row=3)
-    dynamic_labels.append(title_label)
+synopsis_label = tk.Label(root, text="Synopsis:")
+synopsis_label.grid(column=0, row=5)
 
-    boxoffice_label = tk.Label(root, text="Box Office $:")
-    boxoffice_label.grid(column=0, row=4)
-    dynamic_labels.append(boxoffice_label)
+movie_labels = [title_label, boxoffice_label, synopsis_label]
+for widget in movie_labels:
+    widget.grid_remove()
 
-    synopsis_label = tk.Label(root, text="Synopsis:")
-    synopsis_label.grid(column=0, row=5)
-    dynamic_labels.append(synopsis_label)
+# Movie info
+INFO_WRAPLENGTH = 500
+movie_title = tk.Label(root, height=1, wraplength=INFO_WRAPLENGTH)
+movie_title.grid(columnspan=3, column=1, row=3)
+
+movie_boxoffice = tk.Label(root, height=1, wraplength=INFO_WRAPLENGTH)
+movie_boxoffice.grid(columnspan=3, column=1, row=4)
+
+movie_synopsis = tk.Label(root, height=5, wraplength=INFO_WRAPLENGTH)
+movie_synopsis.grid(columnspan=3, rowspan=3, column=1, row=5)
+
+movie_text = [movie_title, movie_boxoffice, movie_synopsis]
+for widget in movie_text:
+    widget.grid_remove()
+
+# Movie poster
+movie_poster = tk.Label()
+movie_poster.grid(rowspan=7, column=4, row=3)
+movie_poster.grid_remove()
 
 
 def update_movie(movie):
-    destroy_dynamic_widgets()
-
-    if len(dynamic_labels) == 0:
-        create_dynamic_labels()
-
     img = Image.open("cats_00007.jpg")
     img = ImageTk.PhotoImage(img)
-    movie_poster = tk.Label(image=img)
+    movie_poster.configure(image=img)
     movie_poster.image = img
-    movie_poster.grid(rowspan=5, column=4, row=3)
-    dynamic_widgets.append(movie_poster)
 
-    movie_title = tk.Label(root, text=f"{movie['Title']}")
-    movie_title.grid(columnspan=3, column=1, row=3)
-    dynamic_widgets.append(movie_title)
+    movie_title.config(text=movie['Title'])
+    movie_boxoffice.config(text=movie['Box Office'])
+    movie_synopsis.config(text=movie['Synopsis'])
 
-    movie_boxoffice = tk.Label(root, text=f"{movie['Box Office']}")
-    movie_boxoffice.grid(columnspan=3, column=1, row=4)
-    dynamic_widgets.append(movie_boxoffice)
-
-    movie_synopsis = tk.Text(root)
-    movie_synopsis.insert(1.0, movie['Synopsis'])
-    movie_synopsis.grid(columnspan=3, rowspan=3, column=1, row=5)
-    movie_synopsis.text = movie["Synopsis"]
-
+    for movie_widget in itertools.chain(movie_labels, movie_text, [movie_poster]):
+        movie_widget.grid()
 
 
 def get_movie(year):
     query_year = date.get_date().year
-    if query_year > 2022 | query_year < 1920:
+    if query_year < 1920:
         return None
-
+    if query_year > 2022:
+        query_year = query_year - 100
     # Determine movie to be displayed
     movie = None
     while movie is None:
@@ -119,15 +128,20 @@ def get_movie(year):
     return movie
 
 
+def toggle_element(element):
+    if element.winfo_viewable():
+        element.grid_remove()
+    else:
+        element.grid()
+
+
 def submit_date():
     query_year = date.get_date().year
-
     # Call service for info (Placeholder atm. Also unsure of final structure of movie object rn)
     movie = get_movie(query_year)
-    if movie is None:
-        return
-
-    update_movie(movie)
+    if movie is not None:
+        update_movie(movie)
+    submit_text.set("Submit New Date")
 
 
 root.mainloop()

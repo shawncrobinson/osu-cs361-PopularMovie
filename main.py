@@ -7,20 +7,23 @@ from tkcalendar import DateEntry
 from PIL import Image, ImageTk
 from io import BytesIO
 
+INSTRUCTIONS_TEXT = "What was the highest grossing movie in the year you were born?\n\n" \
+                    "Enter and submit your date of birth to find out."
+HELP_TEXT = "Enter a date into the box and press Submit to look up the highest grossing movie during your birth year. " \
+            "The date provided must be between 1920 and 2022. "
+
 # Create canvas and root
 root = tk.Tk()
 canvas = tk.Canvas(root, width=1280, height=1000)
 canvas.grid(columnspan=5, rowspan=13)
 
+# region Main UI Widgets
+
 # Instructions
-instructions = tk.Label(root, text="What was the highest grossing movie in the year you were born?\n\n"
-                                   "Enter and submit your date of birth to find out.")
+instructions = tk.Label(root, text=INSTRUCTIONS_TEXT)
 instructions.grid(columnspan=5, column=0, row=0)
 
-help_box = tk.Label(root, width=30, height=7, wraplength=200, text="Enter a date into the box and press Submit to "
-                                                                   "look up the highest grossing movie during your "
-                                                                   "birth year. The date provided must be between "
-                                                                   "1920 and 2022.")
+help_box = tk.Label(root, width=30, height=7, wraplength=200, text=HELP_TEXT)
 help_box.grid(rowspan=2, columnspan=2, column=4, row=1)
 help_box.grid_remove()
 
@@ -46,7 +49,12 @@ submit_text.set("Submit")
 submit_button = tk.Button(root, textvariable=submit_text, command=lambda: submit_date(), height=2, width=13)
 submit_button.grid(columnspan=5, column=0, row=2)
 
-# Movie info labels (grid_remove() run to hide at app start)
+# endregion
+
+# region Movie related widgets
+# grid_remove() is run to hide until the first movie is displayed
+
+# Movie info labels
 title_label = tk.Label(root, text="Title:")
 title_label.grid(column=0, row=3)
 
@@ -87,17 +95,16 @@ movie_poster.grid(rowspan=7, column=4, row=3)
 movie_poster.grid_remove()
 
 
-def update_movie(movie):
-    img = Image.open("cats_00007.jpg")
-    img = ImageTk.PhotoImage(img)
+# endregion
 
-    # Update text fields
+def update_movie_text(movie):
     movie_title.config(text=movie['title'])
-    movie_rating.config(text=str(movie['rating']))  # movie['rating'] is an int
+    movie_rating.config(text=str(movie['rating']))  # movie['rating'] is an int, needs to be casted to str
     movie_synopsis.config(text=movie['synopsis'])
-    movie_genres.config(text=", ".join(movie['genre']))  # movie['genre'] is a list of genres, not a single genre
+    movie_genres.config(text=", ".join(movie['genre']))  # movie['genre'] is a list, needs to be combined into a str
 
-    # Fetch and update poster
+
+def update_movie_poster(movie):
     response = requests.get(movie['poster_path'])
     img = Image.open(BytesIO(response.content))
 
@@ -107,8 +114,18 @@ def update_movie(movie):
     movie_poster.configure(image=img)
     movie_poster.image = img
 
-    for movie_widget in itertools.chain(movie_labels, movie_text, [movie_poster]):
+
+def grid_movie_widgets():
+    changeable_movie_widgets = itertools.chain(movie_labels, movie_text, [movie_poster])
+    for movie_widget in changeable_movie_widgets:
         movie_widget.grid()
+
+
+def update_movie(movie):
+    update_movie_text(movie)
+    update_movie_poster(movie)
+
+    grid_movie_widgets()
 
 
 def get_movie(year):

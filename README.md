@@ -7,7 +7,11 @@ Demo Video: https://media.oregonstate.edu/media/t/1_f6bl5sox
 
 
 Setup process:
+
 Download main.py
+
 Download release v1 of the movie service (located at https://github.com/martiame/361microservice)
+
 Put the movie service's movieScraper.py in the same directory as main.py
+
 Run main.py
